@@ -6,6 +6,7 @@ from falta import falta
 n1 = int(input("Nota 1: "))
 n2 = int(input("Nota 2: "))
 m = media(n1, n2)
+n = str(input("insira sua quantidade de faltas :"))
 print("Media:", m)
 print("Situacao:", situacao(m))
-print("Falta:", falta(m))
+print("Falta:", falta(n))
